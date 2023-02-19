@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #17569B;
+    color: #fff;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+
+  .navbar img {
+    height: 50px;
+  }
+
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    padding-left: 65%;
+  }
+
+  .navbar li {
+    padding: 0 10px 0 55px;
+    font-size: 20px;
+    font-family: 'SEGA LOGO FONT', sans-serif;
+  }
+
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+    background-color: black;
+    color: #fff;
+}
+
+
+.content {
+    min-height: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.decor {
+    width: 100%;
+}
+
+
+.imagesfooter {
+    padding-left: 80%;
+}
+
+
+.imagesfooter img {
+    padding: 0 0 0 30px;
+}
+
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.chaussures {
+    padding-left: 40%;
+    font-family: 'Saira Condensed';
+    /*font-style: ;*/
+}
+
+.emeraude {
+    padding-right: 40%;
+    font-family: 'Saira Condensed';
+    /*font-style: ;*/
+}
+
+.anneau {
+    font-family: 'Saira Condensed';
+    /*font-style: ;*/
+}
+
+.texte {
+    padding-right: 20%;
+    line-height: 75px;
+    text-align: left;
+    font-family: 'Saira Condensed'; 
+    font-weight: bold;
+}
+
+.bienvenue {
+    color:#17569B;
+}
+
+.contenu {
+    color: black;
+    font-weight: bolder;
+}
+
+
+.sonic {
+    padding-left: 30%;
+}
+
+.table-game {
+    width: 75%; 
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+}
+
+.content-about {
+    width: 100%;
+
+}
+
+.projects {
+    font-family: 'SEGA LOGO FONT', sans-serif;
+    color: #17569B;
+    text-align: center;
+    font-size: 74px;
+    margin-top: 10%;
+    
+}
+
+.projects-text {
+    font-family: 'Saira Condensed';
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 5%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul a {
+    color:inherit;
+    text-decoration: none;
+}
+
+.destinataire {
+
+}
+
+.form-text {
+    resize: none;
+    
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+}
